@@ -1,0 +1,225 @@
+
+
+body, html {
+  height: 100%;
+  width:100%;
+  margin: auto;
+  background-image: url("logo.png");
+
+
+}
+
+
+
+  /* The navigation bar */
+.navbar-1 {
+    text-align: center;
+    align-content: center;
+    align-self:center;
+    margin: 0 auto;
+    position: relative;
+    left: -50%;
+  }
+.navbar {
+  box-sizing: border-box;
+  overflow: hidden;
+  width:100%;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  text-align:center;
+  margin: 0 auto;
+}
+
+.main_content {
+  align-self: center;
+  width: 85%;
+  display:grid;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color:white;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: none;
+  color: black;
+  font-family: Raleway;
+  font-size: 400;
+  text-transform: uppercase
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+
+  color: black;
+  font-weight: 700;
+
+
+}
+
+.first {
+  border-left: none;
+  padding-left: 0;
+  padding-right: 2em;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.first_content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+
+
+
+.text-1 h1 {
+  font-family: Raleway;
+  font-weight: normal;
+}
+
+
+.horizontal {
+  display:inline-block;
+  border-left: 1px solid;
+  padding-left: 2em;
+  padding-right: 2em;
+   }
+
+  .hidden {
+    opacity:0;
+    transition: all 1s;
+  }
+
+  .show {
+    opacity:1;
+  }
+
+  .fade-in {
+    opacity:0;
+    transition: opacity 250ms ease-in;
+
+  }
+
+  .fade-in.appear {
+    opacity:1;
+  }
+
+  .image-1-1{
+    width:60%;
+    float:left;
+    margin-top: -200px;
+  }
+
+  .text-1 {
+    margin-top: 10px;
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  .lineDivider {
+  float: left;
+  margin-top: 10px;
+  height: 8px;
+  width: 150px;
+  background-color: #147559;
+}
+
+  .title {
+    display:inline-grid;
+    column-gap: 20px;
+  }
+  .container{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    align-self: center;
+  }
+
+.container img{
+  padding: 0.8rem;
+}
+
+  .row3{
+    width:90%; /*the size you want*/
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px; /*Adjust it how you want*/
+    margin-bottom:5px; /*Adjust it how you want*/
+  }
+
+  .col1{
+    width:30%;
+    vertical-align: middle;
+    margin:auto;
+  }
+
+  .button-book {
+    border: none;
+    background-color: #2F7666;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+  }
+
+
+  .row-2{
+    width:80%; /*the size you want*/
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px; /*Adjust it how you want*/
+    margin-bottom:5px; /*Adjust it how you want*/
+  }
+
+  .col-2{
+    padding: 10px;
+    flex: 50%;
+    margin:auto;
+  }
+
+  .col-2 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .col-2 button {
+    font-size: 13;
+    font-family: Raleway;
+    font-color: white;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+    border-style: none;
+  }
+
+  .col-2 p {
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .col-2 button:hover {
+    background-color: #2F7666;
+    font-weight:bold;
+    border-style: none;
+  }
+
+
+}
