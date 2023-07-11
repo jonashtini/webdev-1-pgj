@@ -222,4 +222,48 @@ body, html {
   }
 
 
+  @media (max-width: 1430px) {
+      #dontshow {
+          display: none !important;
+      }
+      h2 {
+        display: block !important;
+      }
+
+  }
+
+@media (max-width: 412px) {
+
+  body {
+    margin:auto !important;
+  }
+
+  .div-1{
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .lineDivider {
+    display: none !important;
+  }
+
+  .logo {
+    width: 70% !important;
+    margin-bottom: 200px !important;
+    padding-top: 200px !important;
+  }
+
+  .image-1-1 {
+    margin-top:-100 !important;
+    width: 60%  !important;
+    float: none !important;
+    margin:auto !important;
+    margin-top: -110px !important;
+
+  }
+{
+
 }
